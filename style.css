@@ -42,7 +42,7 @@ body {
   .container {
     flex-direction: column;
     min-width: 300px;
-    max-width: 350px;
+    max-width: 375px;
     margin: 25px;
     text-align: -webkit-center;
   }
@@ -92,7 +92,7 @@ body {
 }
 @media (max-width: 892px) {
   .container .content .main-content {
-    width: 72%;
+    width: 67%;
   }
 }
 .container .content .main-content h1 {
