@@ -32,6 +32,7 @@ body {
 .container {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   width: 55rem;
   border-radius: 5px;
   overflow: hidden;
@@ -40,7 +41,8 @@ body {
 @media (max-width: 892px) {
   .container {
     flex-direction: column;
-    width: 300px;
+    min-width: 300px;
+    max-width: 350px;
     margin: 25px;
     text-align: -webkit-center;
   }
@@ -81,7 +83,6 @@ body {
 @media (max-width: 892px) {
   .container .content {
     width: 100%;
-    margin: 25px;
     margin: 2rem 0;
     padding: 0;
   }
@@ -91,7 +92,7 @@ body {
 }
 @media (max-width: 892px) {
   .container .content .main-content {
-    width: 84%;
+    width: 72%;
   }
 }
 .container .content .main-content h1 {
